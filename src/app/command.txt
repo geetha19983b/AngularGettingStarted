@@ -1,0 +1,10 @@
+npm install bootstrap font-awesome
+
+ng g c products/product-detail --flat
+
+ng g g products/product-detail
+--generate module and import it into app module
+ng g m products/product --flat -m app
+
+ng g m shared/shared --flat -m products/product.module
+
